@@ -1,4 +1,15 @@
 // CRUD de listas
+
+/* Casos de testes:
+  [2,3] -> [2,8,2,2,2], Lista inválida
+  [0,6,8,3,1,4] -> [1,6,8,3,9], Lista inválida
+  [0,3,4,5,6,7,8,9,10] -> [0,7,8,9,10], Lista válida
+  [1,2,3,5,6,7] -> [1,2,3,5,6], Lista inválida
+  [10,3,6,9,4,8,7] -> [3,6,9,4,8], Lista inválida
+  [8,7,10,4,5,6,9,2] -> [10,4,5,6,9], Lista válida
+  [4,9,2,3,5] -> [4,8,2,3,5], Lista válida
+*/
+
 void main() {
   // Não mudar o construtor unmodifiable
   final initialList = List<int>.unmodifiable([2, 3]);
