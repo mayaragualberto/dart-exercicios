@@ -1,6 +1,12 @@
+import 'dart:io';
+
 void main() {
-  final desconto = 5;
-  final preco = 500.00;
+  stdout.write("Informe o percentual de desconto: ");
+  int desconto = int.parse(stdin.readLineSync().toString());
+
+  stdout.write("Informe o percentual de desconto: ");
+  double preco = double.parse(stdin.readLineSync().toString());
+
   final valorDesconto = preco * (desconto / 100);
   final precoFinal = preco - valorDesconto;
 

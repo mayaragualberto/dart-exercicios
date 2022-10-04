@@ -1,7 +1,14 @@
+import 'dart:io';
+
 void main() {
-  final totalParc = 60;
-  final numParcPagas = 18;
-  final valorParc = 566.78;
+  stdout.write("Informe a quantidade total de parcelas: ");
+  int totalParc = int.parse(stdin.readLineSync().toString());
+
+  stdout.write("Informe o número de parcelas pagas: ");
+  int numParcPagas = int.parse(stdin.readLineSync().toString());
+
+  stdout.write("Informe o valor de cada parcela: ");
+  double valorParc = double.parse(stdin.readLineSync().toString());
 
   final valorTotal = valorParc * totalParc;
   final saldo = valorTotal - (numParcPagas * valorParc);

@@ -1,8 +1,13 @@
-void main() {
-  int valorA = 3;
-  int valorB = 5;
+import 'dart:io';
 
-  print('Valores originais:');
+void main() {
+  stdout.write("Informe o valorA: ");
+  int valorA = int.parse(stdin.readLineSync().toString());
+
+  stdout.write("Informe o valorB: ");
+  int valorB = int.parse(stdin.readLineSync().toString());
+
+  print('\nValores originais:');
   print(' - Valor A: $valorA');
   print(' - Valor B: $valorB\n');
 

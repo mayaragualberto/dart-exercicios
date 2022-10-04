@@ -1,8 +1,10 @@
 // Calcular a área de um quadrado
 import 'dart:math';
+import 'dart:io';
 
 void main() {
-  final lado = 25;
+  stdout.write("Informe o valor do lado: ");
+  final lado = int.parse(stdin.readLineSync().toString());
 
   // final area = lado*lado;
   final area = pow(lado, 2);
