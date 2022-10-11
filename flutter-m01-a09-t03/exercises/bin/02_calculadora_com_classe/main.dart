@@ -15,16 +15,20 @@ void main() {
 
   switch (operacao) {
     case 1:
-      tela.mostrar("Resultado: ${calculadora.somar(valor1, valor2)}");
+      tela.mostrar(
+          "Resultado: ${(calculadora.somar(valor1, valor2)).toStringAsFixed(2)}");
       break;
     case 2:
-      tela.mostrar("Resultado: ${calculadora.subtrair(valor1, valor2)}");
+      tela.mostrar(
+          "Resultado: ${(calculadora.subtrair(valor1, valor2)).toStringAsFixed(2)}");
       break;
     case 3:
-      tela.mostrar("Resultado: ${calculadora.dividir(valor1, valor2)}");
+      tela.mostrar(
+          "Resultado: ${(calculadora.dividir(valor1, valor2)).toStringAsFixed(2)}");
       break;
     case 4:
-      tela.mostrar("Resultado: ${calculadora.multiplicar(valor1, valor2)}");
+      tela.mostrar(
+          "Resultado: ${(calculadora.multiplicar(valor1, valor2)).toStringAsFixed(2)}");
       break;
     default:
       print('Operação inválida');

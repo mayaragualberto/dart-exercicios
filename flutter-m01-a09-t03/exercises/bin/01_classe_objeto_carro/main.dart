@@ -1,14 +1,10 @@
 import 'Carro.dart';
 
 void main() {
-  // 1. Declaração de variáveis
-  // 2. Atribuição de valores (ENTRADA)
   Carro carro1 = Carro("Fiat", "Palio", "branca", "flex", 1.0);
   Carro carro2 = Carro("Honda", "Civic", "cinza", "gasolina", 1.8);
   Carro carro3 = Carro("Hyundai", "Tucson", "prata", "gasolina", 2.4);
 
-  // 3. Validações e Cálculos (PROCESSAMENTO)
-  // 4. Mostra o resultado (SAÍDA)
   print("Montadora: ${carro1.montadora}");
   print("Modelo: ${carro1.modelo}");
   print("Cor: ${carro1.cor}");
