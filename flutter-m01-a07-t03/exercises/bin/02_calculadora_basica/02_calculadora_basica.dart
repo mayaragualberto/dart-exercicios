@@ -8,7 +8,6 @@ void main() {
   stdout.write(
       "Informe a operação: \n1 - Adição;\n2 - Subtração;\n3 - Divisão;\n4 - Multiplicação.\n");
   int operacao = int.parse(stdin.readLineSync().toString());
-  print(operacao);
   double resultado;
   String simbolo = '';
 
