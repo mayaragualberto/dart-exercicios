@@ -5,10 +5,10 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Dart & Flutter",
-            "request": "launch",
+            "name": "Dart (flutter-m02-a03-t03\\exercises\\bin\\01_hot_reload_restard\\main.dart)",
             "type": "dart",
-            "program": "D:/Documentos/Estudos/Cursos Online/Cubos Academy/dart-exercicios/flutter-m01-a06-t03/05_censo_list.dart"
+            "request": "launch",
+            "program": "flutter-m02-a03-t03\\exercises\\bin\\01_hot_reload_restard\\main.dart"
         }
     ]
 }
